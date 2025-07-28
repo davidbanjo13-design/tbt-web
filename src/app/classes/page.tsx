@@ -3,24 +3,24 @@ import Link from 'next/link'
 import course1 from '../../../public/images/course.1.jpg'
 import course2 from '../../../public/images/course.2.jpg'
 import course3 from '../../../public/images/course.3.jpg'
-import blackLogo from '../../../public/images/black.logo.jpg'
+import banner from '../../../public/images/banner.jpg'
 
 export default function Classes() {
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
-      <section className="relative h-[80vh]">
+      <section className="relative h-[60vh] md:h-[80vh]">
         <div className="absolute inset-0 z-0">
           <Image
-            src={blackLogo}
-            alt="Hair styling class"
+            src={banner}
+            alt="Weave Training Masterclass"
             width={1920}
             height={1080}
-            className="object-cover object-center w-full h-full"
+            className="object-cover object-[center_25%] w-full h-full"
             priority
             quality={85}
           />
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
       </section>
 
