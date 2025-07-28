@@ -16,11 +16,11 @@ export default function Classes() {
             alt="Weave Training Masterclass"
             width={1920}
             height={1080}
-            className="object-cover object-[center_25%] w-full h-full"
+            className="object-cover object-[center_40%] w-full h-full"
             priority
             quality={85}
           />
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-black/25"></div>
         </div>
       </section>
 
