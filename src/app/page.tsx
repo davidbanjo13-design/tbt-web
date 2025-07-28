@@ -68,17 +68,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Static Banner */}
-      <div className="w-full bg-black text-white py-3 overflow-hidden">
-        <div className="flex items-center justify-center">
-          <span className="text-sm tracking-widest px-4">WITH TALIYAH MARRETT</span>
-          <span className="text-sm">★</span>
-          <span className="text-sm tracking-widest px-4">WITH TALIYAH MARRETT</span>
-          <span className="text-sm">★</span>
-          <span className="text-sm tracking-widest px-4">WITH TALIYAH MARRETT</span>
-        </div>
-      </div>
-
       {/* Product Grid */}
       <section className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-light text-center mb-12">SHOP BEST SELLERS</h2>
