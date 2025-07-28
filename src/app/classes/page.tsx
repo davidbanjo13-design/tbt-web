@@ -14,11 +14,11 @@ export default function Classes() {
           <Image
             src={taliya}
             alt="Weave Training Masterclass"
-            width={1920}
-            height={1080}
+            width={1200}
+            height={675}
             className="object-cover object-[center_40%] w-full h-full"
             priority
-            quality={85}
+            quality={80}
           />
           <div className="absolute inset-0 bg-black/25"></div>
         </div>
