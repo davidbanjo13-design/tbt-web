@@ -71,16 +71,9 @@ export default function RootLayout({
                     className="hover:opacity-70 transition-opacity"
                     aria-label="Follow WithTaliyahMarrett on TikTok"
                   >
-                    <div className="relative w-6 h-6">
-                      <Image
-                        src="/images/tiktok.icon.png"
-                        alt="TikTok"
-                        fill
-                        sizes="(max-width: 768px) 24px, 24px"
-                        className="object-contain invert brightness-0"
-                        priority
-                      />
-                    </div>
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 00-1-.08A6.34 6.34 0 003 15.66a6.34 6.34 0 0010.86 4.44l.13-.19v-8.88a8.16 8.16 0 005.69 2.32l.01-3.91a4.83 4.83 0 01-3.77-2.75z"/>
+                    </svg>
                   </a>
 
                   {/* Snapchat Icon */}
