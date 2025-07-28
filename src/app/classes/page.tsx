@@ -3,7 +3,7 @@ import Link from 'next/link'
 import course1 from '../../../public/images/course.1.jpg'
 import course2 from '../../../public/images/course.2.jpg'
 import course3 from '../../../public/images/course.3.jpg'
-import banner from '../../../public/images/banner.jpg'
+import taliya from '../../../public/images/taliya.jpg'
 
 export default function Classes() {
   return (
@@ -12,7 +12,7 @@ export default function Classes() {
       <section className="relative h-[60vh] md:h-[80vh]">
         <div className="absolute inset-0 z-0">
           <Image
-            src={banner}
+            src={taliya}
             alt="Weave Training Masterclass"
             width={1920}
             height={1080}
