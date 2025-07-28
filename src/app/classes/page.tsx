@@ -3,24 +3,38 @@ import Link from 'next/link'
 import course1 from '../../../public/images/course.1.jpg'
 import course2 from '../../../public/images/course.2.jpg'
 import course3 from '../../../public/images/course.3.jpg'
-import taliya from '../../../public/images/taliya.jpg'
+import heroImage from '../../../public/images/1-1.jpg'
 
 export default function Classes() {
   return (
     <div className="animate-fade-in">
-      {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh]">
-        <div className="absolute inset-0 z-0">
+      {/* Hero Split Section */}
+      <section className="relative min-h-[80vh] grid md:grid-cols-2">
+        {/* Image Side */}
+        <div className="relative h-[50vh] md:h-full">
           <Image
-            src={taliya}
-            alt="Weave Training Masterclass"
+            src={heroImage}
+            alt="Hair styling expertise"
             width={1200}
-            height={675}
-            className="object-cover object-[center_40%] w-full h-full"
+            height={1200}
+            className="object-cover w-full h-full"
             priority
-            quality={80}
+            quality={85}
           />
-          <div className="absolute inset-0 bg-black/25"></div>
+          <div className="absolute inset-0 bg-black/10"></div>
+        </div>
+
+        {/* Text Side */}
+        <div className="flex items-center justify-center bg-primary text-secondary p-8 md:p-16">
+          <div className="max-w-xl">
+            <h1 className="text-4xl md:text-6xl font-light mb-6 leading-tight">
+              MASTER YOUR CRAFT
+            </h1>
+            <div className="w-20 h-0.5 bg-secondary mb-8"></div>
+            <p className="text-xl md:text-2xl font-light leading-relaxed">
+              Dedication unlocks unparalleled expertise.
+            </p>
+          </div>
         </div>
       </section>
 
