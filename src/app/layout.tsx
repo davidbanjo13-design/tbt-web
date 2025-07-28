@@ -77,7 +77,8 @@ export default function RootLayout({
                         alt="TikTok"
                         fill
                         sizes="(max-width: 768px) 24px, 24px"
-                        className="object-contain"
+                        className="object-contain invert brightness-0"
+                        priority
                       />
                     </div>
                   </a>
