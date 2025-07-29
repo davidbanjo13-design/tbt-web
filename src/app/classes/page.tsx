@@ -126,7 +126,7 @@ export default function Classes() {
                   ))}
                 </ul>
                 <Link
-                  href="https://app.acuityscheduling.com/schedule.php?owner=17109275"
+                  href="https://stan.store/TheMarrettAcademy/p/master-the-art-of-sew-ins-on-this-2-day-course-er67avx8"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full bg-secondary text-primary px-8 py-3 text-center hover:bg-secondary/90 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
@@ -214,7 +214,7 @@ export default function Classes() {
                   ))}
                 </ul>
                 <Link
-                  href="https://app.acuityscheduling.com/schedule.php?owner=17109275"
+                  href="https://stan.store/TheMarrettAcademy/p/join-me-at-the-webinar-xnhupg6v"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full bg-secondary text-primary px-8 py-3 text-center hover:bg-secondary/90 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
@@ -308,7 +308,7 @@ export default function Classes() {
                   ))}
                 </ul>
                 <Link
-                  href="https://app.acuityscheduling.com/schedule.php?owner=17109275"
+                  href="https://stan.store/TheMarrettAcademy/p/refresh-your-skills-of-sew-ins-on-this-course"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full bg-secondary text-primary px-8 py-3 text-center hover:bg-secondary/90 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
