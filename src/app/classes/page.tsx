@@ -3,7 +3,7 @@ import Link from 'next/link'
 import course1 from '../../../public/images/course.1.jpg'
 import course2 from '../../../public/images/course.2.jpg'
 import course3 from '../../../public/images/course.3.jpg'
-import heroImage from '../../../public/images/1-1.jpg'
+import heroImage from '../../../public/images/mastercraft.jpg'
 
 export default function Classes() {
   return (
