@@ -163,7 +163,7 @@ export default function Home() {
             <div className="text-center md:text-left space-y-6 px-4">
               <h2 className="text-4xl md:text-5xl font-light">FOLLOW US ON #IG</h2>
               <p className="text-lg opacity-90">
-                SHARE YOUR PHOTOS AND TAG @TOUCHEDBYTILLS ON YOUR INSTA POST FOR A CHANCE TO BE FEATURED!
+                SHARE YOUR PHOTOS AND TAG @WITHTALIYAHMARRETT ON YOUR INSTA POST FOR A CHANCE TO BE FEATURED!
               </p>
               <div className="mt-8">
                 <Link
